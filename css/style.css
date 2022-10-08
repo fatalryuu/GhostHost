@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@font-face {
+    font-family: "Myriad Pro Bold";
+    url("../fonts/myriadpro-bold.tff")
+}
+
+@font-face {
+    font-family: "Georgia Italic";
+    src: url("../fonts/georgia-italic.ttf");
+}
 
 body, html {
     font-family: "Lato", sans-serif;
@@ -30,7 +39,7 @@ body, html {
     width: 1600px;
     height: 945px;
     background-blend-mode: darken;
-    background: rgba(0,0,0,0.7) url(../images/header.jpg) no-repeat;
+    background: rgba(0,0,0,0.83) url(../images/header.jpg) no-repeat;
 }
 
 .container-nav {
@@ -774,7 +783,7 @@ blockquote.quote {
 
 /*Block of Footer*/
 footer {
-    height: 280p;
+    height: 280px;
 }
 
 footer.footer {
