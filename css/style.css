@@ -13,22 +13,16 @@
     src: url("../fonts/Lato-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Lato Heavy";
+    src: url("../fonts/Lato-Heavy.ttf");
+}
+
 body, html {
     font-family: "Lato", sans-serif;
     width: 1600px;
     height: 3634px;
     margin: 0 auto;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
 }
 
 /*Header*/
@@ -176,6 +170,7 @@ body, html {
     color: #125F37;
 }
 /*End Section of Register*/
+
 /*End of Header*/
 
 
@@ -185,12 +180,11 @@ body, html {
 }
 
 .prices h3 {
+    font-family: "Lato Heavy", sans-serif;
     margin-top: 0;
     padding-top: 85px;
     text-align: center;
     font-size: 24px;
-    font-weight: 700;
-    word-spacing: 3px;
 }
 
 .prices > p {
@@ -775,10 +769,6 @@ blockquote.quote {
 
 
 /*Block of Footer*/
-footer {
-    height: 280p;
-}
-
 footer.footer {
     color: #d9d9d9;
     list-style-type: none;
