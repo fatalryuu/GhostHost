@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
 @font-face {
     font-family: "Myriad Pro Bold";
-    url("../fonts/myriadpro-bold.tff")
+    src: url("../fonts/myriadpro-bold.ttf")
 }
 
 @font-face {
     font-family: "Georgia Italic";
     src: url("../fonts/georgia-italic.ttf");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.ttf");
 }
 
 body, html {
@@ -74,15 +77,6 @@ body, html {
 
 .nav-bar ul li a:hover {
     border-bottom: 1px solid #fff;
-    color: #E84C3D;
-}
-
-.nav-bar ul li a:active {
-    color: #FF0000;
-}
-
-.nav-bar ul li a:visited {
-    color: #FA8072;
 }
 
 .nav-bar ul li:last-child {
@@ -105,23 +99,22 @@ body, html {
     text-align: center;
     position: relative;
     left: 1px;
-    top: 258px;
+    top: 268px;
 }
 
 .home p {
-    font: 32px 'Georgia', sans-serif;
+    font: 32px 'Georgia Italic', sans-serif;
     font-style: italic;
-    margin: 18px auto;
-    line-height: 29px;
-    color: #fff;
+    margin: 14px auto;
+    line-height: 30px;
+    color: white;
 }
 
 .home h2 {
-    font-size: 70px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff;
-    margin-bottom: 24px;
+    font-family: "Myriad Pro Bold", sans-serif;
+    font-size: 72px;
+    color: white;
+    margin-bottom: 4px;
 }
 /*End Section of Home*/
 
