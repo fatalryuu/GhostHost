@@ -50,7 +50,7 @@ body, html {
     border-bottom: 1px solid #2F2E33;
     height: 90px;
     width: 1200px;
-    background: url(../images/logo.png) no-repeat 4px 32px; 
+    background: url(../images/logo.png) no-repeat 4px 32px;
 }
 
 .nav-bar {
@@ -310,7 +310,7 @@ td.bottom:first-child {
 }
 
 td.bottom:nth-child(n) {
-    padding-top: 17px; 
+    padding-top: 17px;
 }
 
 td.top.one,
@@ -323,7 +323,7 @@ td.bottom.price {
     padding: 10px 49px;
 }
 
-td.top::before, 
+td.top::before,
 td.bottom::before {
     content: '';
     display: block;
@@ -368,7 +368,7 @@ article.package-blocks {
 }
 
 .package-block:first-child {
-    border-top: 4px solid #F9D423; 
+    border-top: 4px solid #F9D423;
 }
 
 .package-grey {
@@ -396,7 +396,7 @@ article.package-blocks {
     padding: 5px 0 0 0;
     padding-bottom: 10px;
     border-top: 1px solid #DFDFDF;
-    border-bottom: 1px solid #DFDFDF;  
+    border-bottom: 1px solid #DFDFDF;
 }
 
 .block-item {
@@ -517,9 +517,9 @@ svg.circular-chart {
 }
 
 @keyframes progress {
-  0% {
-    stroke-dasharray: 0 100;
-  }
+    0% {
+        stroke-dasharray: 0 100;
+    }
 }
 /*End Block of Tarif Package*/
 
@@ -609,8 +609,8 @@ ul.profile {
     list-style-type: none;
 }
 
-.fa-facebook-f, 
-.fa-twitter,  
+.fa-facebook-f,
+.fa-twitter,
 .fa-link{
     color: #c4c4c4;
 }
@@ -618,7 +618,7 @@ ul.profile {
 .fa-facebook-f:hover,
 .fa-twitter:hover,
 .fa-link:hover
- {
+{
     color: #198ABC;
 }
 /*End Block of About Us*/
@@ -763,20 +763,20 @@ blockquote.quote {
     font-size: 18px;
     font-weight: bold;
     margin: 0 0 10px;
-} 
+}
 
- .feature-item > p {
-     font-size: 16px;
-     text-align: center;
-     opacity: .5;
-     margin: 0;
+.feature-item > p {
+    font-size: 16px;
+    text-align: center;
+    opacity: .5;
+    margin: 0;
 }
 /*End Block of Features*/
 
 
 /*Block of Footer*/
 footer {
-    height: 280px;
+    height: 280p;
 }
 
 footer.footer {
@@ -801,7 +801,7 @@ footer.footer {
     padding: 0;
     height: 30px;
     width: 150px;
-    background: url(../images/logo.png) no-repeat; 
+    background: url(../images/logo.png) no-repeat;
 }
 
 .footer-nav ul{
@@ -901,7 +901,7 @@ nav.footer-list li:hover{
 
 .footer-contact ul li a {
     text-decoration: none;
-    color: #d9d9d9; 
+    color: #d9d9d9;
 }
 
 .footer-contact ul li a:hover {
@@ -909,4 +909,3 @@ nav.footer-list li:hover{
     transition: .3s all;
 }
 /*End Block of Footer*/
-
