@@ -895,7 +895,7 @@ footer.footer {
     padding: 15px 8px;
 }
 
-.footer-block > p {
+.footer-block p {
     line-height: 1.70;
     margin-left: 164px;
     font-size: 15px;
@@ -941,7 +941,7 @@ nav.footer-list li:hover{
     margin-bottom: 5px;
 }
 
-.footer-contact > ul {
+.footer-contact ul {
     font-size: 14px;
 }
 
