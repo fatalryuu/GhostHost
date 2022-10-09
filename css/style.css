@@ -798,16 +798,36 @@ ul.profile {
     background-color: #F1C40F;
 }
 
+.icon-yellow:hover {
+    cursor: pointer;
+    background-color: #cea811;
+}
+
 .icon-blue {
     background-color: #10AFF1;
+}
+
+.icon-blue:hover {
+    cursor: pointer;
+    background-color: #0f94c7;
 }
 
 .icon-grey {
     background-color: #95A5A5;
 }
 
+.icon-grey:hover {
+    cursor: pointer;
+    background-color: #707d7d;
+}
+
 .icon-red {
     background-color: #F1540F;
+}
+
+.icon-red:hover {
+    cursor: pointer;
+    background-color: #c1410d;
 }
 
 .feature-item {
