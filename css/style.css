@@ -9,13 +9,23 @@
 }
 
 @font-face {
-    font-family: "Lato";
+    font-family: "Lato Regular";
     src: url("../fonts/Lato-Regular.ttf");
 }
 
 @font-face {
-    font-family: "Lato Regular";
-    src: url("../fonts/Lato-Regular.ttf");
+    font-family: "Lato Light";
+    src: url("../fonts/Lato-Light.ttf");
+}
+
+@font-face {
+    font-family: "Lato Black";
+    src: url("../fonts/Lato-Black.ttf");
+}
+
+@font-face {
+    font-family: "Lato Bold";
+    src: url("../fonts/Lato-Bold.ttf");
 }
 
 @font-face {
@@ -515,41 +525,51 @@ section.about-us {
 }
 
 .about-text {
-    width: 45.5%;
+    width: 44.6%;
     height: 200px;
-    opacity: .7;
-    font-size: 15px;
+    opacity: 0.75;
     border-right: 3px dotted #D7D7D7;
 }
 
-.about-text > p {
-    opacity: .7;
-    width: 420px;
-    text-align: justify;
-    line-height: 23px;
-    margin-left: 160px;
-    font-size: 18px;
-}
-
-.about-text > h3 {
-    font-weight: 500;
-    font-size: 33px;
-    word-spacing: 10px;
+.about-text h3 {
     margin: 10px 0 15px 160px;
 }
 
 .about-text h3 span {
+    font-size: 35px;
     font-weight: 900;
+    word-spacing: normal;
+}
+
+.about {
+    font-family: "Lato Black", sans-serif;
+}
+
+.us {
+    font-family: "Lato SemiBold", sans-serif;
+}
+
+.about-text p {
+    font-family: "Lato Light", sans-serif;
+    padding-top: 5px;
+    line-height: 27px;
+    opacity: .75;
+    width: 420px;
+    text-align: justify;
+    margin-left: 160px;
+    font-size: 17px;
 }
 
 .content {
     display: flex;
-    padding-top: 52px;
+    padding-top: 50px;
 }
 
 .profiles {
     display: flex;
     width: 50%;
+    padding-left: 17px;
+    padding-top: 5px;
     justify-content: space-around;
 }
 
@@ -564,11 +584,14 @@ section.about-us {
 }
 
 .profile li.name {
+    font-family: "Lato Bold", sans-serif;
+    font-size: 17px;
     font-weight: bold;
     margin-bottom: 9px;
 }
 
 .profile li.prof {
+    font-family: "Lato Regular", sans-serif;
     font-size: 15px;
     opacity: .5;
     margin-bottom: 10px;
