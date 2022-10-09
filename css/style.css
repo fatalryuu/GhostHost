@@ -42,13 +42,13 @@ body, html {
 .container-nav {
     margin: 0 auto;
     border-bottom: 1px solid #2F2E33;
-    height: 90px;
+    height: 89px;
     width: 1200px;
     background: url(../images/logo.png) no-repeat 4px 32px;
 }
 
 .nav-bar {
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0);
 }
 
 .nav-bar ul {
@@ -62,7 +62,7 @@ body, html {
 }
 
 .nav-bar ul li a {
-    padding-top: 20px;
+    padding-top: 19px;
     padding-bottom: 33px;
     cursor: pointer;
     text-decoration: none;
@@ -81,7 +81,7 @@ body, html {
     list-style-type: none;
 }
 
-.nav > li > a {
+.nav li a {
     position: relative;
     display: block;
     padding: 24px 1px;
@@ -120,13 +120,13 @@ body, html {
     text-align: center;
     background-color: #2FAC6C;
 }
-.registration .login {
+.login {
     position: absolute;
     height: 120px;
     width: 53.7%;
     background: #21424A;
 }
-.registration .register {
+.register {
     height: 120px;
     width: 50.3%;
     float: right;
@@ -140,12 +140,12 @@ body, html {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 600;
-    color: #fff;
+    color: white;
     text-decoration: none;
     display: inline-block;
 }
 
-.register a:first-child {
+.register a {
     right: 96px;
     transform: skewX(13deg);
 }
@@ -154,20 +154,16 @@ body, html {
     left: 75px;
 }
 
-.login a:hover {
-    color: #4E9CAF;
+.login a:hover, .register a:hover {
+    color: #dedede;
 }
 
 .login a:active {
-    color: #0085A6;
-}
-
-.register a:hover {
-    color: #8FFCC4;
+    color: #14292f;
 }
 
 .register a:active {
-    color: #125F37;
+    color: #125F38;
 }
 /*End Section of Register*/
 
