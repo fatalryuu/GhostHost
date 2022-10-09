@@ -282,14 +282,14 @@ body, html {
     border-right: 1px solid #D9D9D9;
 }
 
-.table-row td.bottom:last-child,
-.table-row td.top:last-child {
+.table-row td.bottom:last-child, .table-row td.top:last-child {
     border-right: none;
 }
 
 td.top:first-child {
     padding-top: 10px;
 }
+
 td.top:last-child {
     padding-top: 10px;
 }
@@ -302,18 +302,15 @@ td.bottom:nth-child(n) {
     padding-top: 17px;
 }
 
-td.top.one,
-td.bottom.one {
+td.top.one, td.bottom.one {
     padding: 10px 50px;
 }
 
-td.top.price,
-td.bottom.price {
+td.top.price, td.bottom.price {
     padding: 10px 49px;
 }
 
-td.top::before,
-td.bottom::before {
+td.top::before, td.bottom::before {
     content: '';
     display: block;
     width: 130px;
