@@ -555,7 +555,7 @@ td.top::before, td.bottom::before {
 /*Block About Us*/
 section.about-us {
     padding: 40px;
-    height: 325px;
+    height: 321px;
 }
 
 .about-text {
@@ -680,6 +680,7 @@ ul.profile {
     flex-direction: column;
     align-items: center;
     height: 190px;
+    margin-bottom: 4px;
     background: url('../images/slider-bg.png') no-repeat;
     color: white;
 }
@@ -844,7 +845,7 @@ footer.footer {
     width: 1200px;
     position: relative;
     left: 200px;
-    border-bottom: 1px solid #666666;
+    border-bottom: 1px solid #4a4a4a;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -905,8 +906,8 @@ footer.footer {
     display: flex;
     padding: 3px 65px;
     margin-right: -21px;
-    border-right: 1px solid #666666;
-    border-left: 1px solid #666666;
+    border-right: 1px solid #4a4a4a;
+    border-left: 1px solid #4a4a4a;
 }
 
 nav.footer-list ul{
