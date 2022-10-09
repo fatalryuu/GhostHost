@@ -613,6 +613,18 @@ section.about-us {
     flex-direction: column;
 }
 
+.jonny {
+    padding-left: 37px;
+}
+
+.john {
+    padding-left: 28px;
+}
+
+.johnathan {
+    padding-left: 30px;
+}
+
 .profile:last-child{
     margin-right: 70px;
 }
@@ -621,7 +633,7 @@ section.about-us {
     font-family: "Lato Bold", sans-serif;
     font-size: 17px;
     font-weight: bold;
-    margin-bottom: 9px;
+    margin-bottom: 4px;
 }
 
 .profile li.prof {
