@@ -187,8 +187,8 @@ body, html {
 
 /*Block with Domain*/
 .prices {
-    height: 578px;
-    margin-bottom: 8px;
+    height: 564px;
+    margin-bottom: 18px;
 }
 
 .prices h3 {
@@ -318,12 +318,11 @@ td.top::before, td.bottom::before {
 }
 /*End Block of with Domain*/
 
-
 /*Block Tarif Package*/
 .package {
     display: flex;
     flex-direction: column;
-    background-color: #fff;
+    background-color: white;
     justify-content: center;
     height: 760px;
 }
@@ -335,9 +334,9 @@ td.top::before, td.bottom::before {
     border-bottom: 4px dotted #D7D7D7;
 }
 
-article.package-blocks {
+.package-blocks {
     display: flex;
-    margin: -281px 0 120px 200px;
+    margin: -281px 0 100px 200px;
     height: 570px;
 }
 
@@ -347,10 +346,10 @@ article.package-blocks {
     display: flex;
     flex-direction: column;
     width: 15.5%;
-    height: 97%;
+    height: 520px;
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .package-block:first-child {
@@ -379,8 +378,7 @@ article.package-blocks {
 .block-list {
     list-style-type: none;
     margin-top: 0;
-    padding: 5px 0 0 0;
-    padding-bottom: 10px;
+    padding: 5px 0 10px;
     border-top: 1px solid #DFDFDF;
     border-bottom: 1px solid #DFDFDF;
 }
@@ -411,7 +409,7 @@ article.package-blocks {
     color: #18BC9A;
 }
 
-footer.block {
+.block {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -420,7 +418,7 @@ footer.block {
     flex-grow: 1;
 }
 
-.block-price > .price {
+.block-price .price {
     font-size: 28px;
     font-weight: bold;
 }
@@ -455,7 +453,7 @@ footer.block {
     border-top: 3px solid #18BC9A;
 }
 
-svg.circular-chart {
+.circular-chart {
     display: block;
     margin: 14px auto;
     width: 60px;
@@ -546,7 +544,7 @@ section.about-us {
 
 .content {
     display: flex;
-    padding-top: 57px;
+    padding-top: 52px;
 }
 
 .profiles {
