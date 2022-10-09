@@ -650,15 +650,11 @@ ul.profile {
     list-style-type: none;
 }
 
-.fa-facebook-f,
-.fa-twitter,
-.fa-link{
+.fa-facebook-f, .fa-twitter, .fa-link{
     color: #c4c4c4;
 }
 
-.fa-facebook-f:hover,
-.fa-twitter:hover,
-.fa-link:hover
+.fa-facebook-f:hover, .fa-twitter:hover, .fa-link:hover
 {
     color: #198ABC;
 }
@@ -698,7 +694,7 @@ blockquote.quote {
     display: flex;
 }
 
-.info > p {
+.info p {
     margin: 0;
     padding-right: 20px;
     font-size: 20px;
@@ -711,7 +707,7 @@ blockquote.quote {
     align-items: center;
 }
 
-.icons > ul {
+.icons ul {
     padding: 0 0 7px 20px;
     margin: 0;
 }
@@ -750,7 +746,7 @@ blockquote.quote {
     position: relative;
     right: 20px;
     align-items: center;
-    padding: 85px 150px;
+    padding: 78px 150px 85px 150px;
 }
 
 .feature-block {
@@ -800,17 +796,20 @@ blockquote.quote {
     align-items: center;
 }
 
-.feature-item > h4 {
+.feature-item h4 {
+    padding-top: 5px;
     font-size: 18px;
     font-weight: bold;
-    margin: 0 0 10px;
+    margin: 0 0 3px;
 }
 
-.feature-item > p {
+.feature-item p {
+    font-family: "Lato Light", sans-serif;
     font-size: 16px;
     text-align: center;
-    opacity: .5;
+    opacity: 0.5;
     margin: 0;
+    line-height: 23px;
 }
 /*End Block of Features*/
 
