@@ -207,7 +207,7 @@ body, html {
     padding-top: 85px;
     text-align: center;
     font-size: 24px;
-    margin-bottom: 22px;
+    margin-bottom: 23px;
 }
 
 .prices p {
@@ -215,13 +215,13 @@ body, html {
     font-size: 16px;
     color: #D9D9D9;
     padding-right: 3px;
-    margin-bottom: 47px;
+    margin-bottom: 48px;
     text-align: center;
 }
 
 .domain-choose {
-    height: 50px;
-    width: 890px;
+    height: 48px;
+    width: 888px;
     border: 1px solid #D9D9D9;
     margin: 0 auto 40px;
 }
@@ -236,17 +236,17 @@ body, html {
 
 .domain {
     font-family: "Lato SemiBold", sans-serif;
-    width: 690px;
+    width: 700px;
     font-size: 15px;
     padding: 15px 12px;
     border: none;
 }
 
 #domain-name {
-    padding: 6px 6px;
+    padding: 6px 10px;
     color: #CBCBCB;
-    font-size: 16px;
-    width: 70px;
+    font-size: 15px;
+    width: 77px;
     border: none;
     border-left: 1px solid #D9D9D9;
 }
@@ -254,13 +254,31 @@ body, html {
 .domain-price {
     color: #CBCBCB;
     font-size: 14px;
-    padding-top: 25px;
+    padding-top: 20px;
     text-align: center;
     display: block;
     border: 1px solid #D9D9D9;
     margin: 0 auto;
-    width: 890px;
-    height: 168px;
+    width: 888px;
+    height: 173px;
+}
+
+.domain-table .table-row td.top::after {
+    content: "";
+    display: block;
+    right: -6px;
+    bottom: -6px;
+    width: 12px;
+    z-index: 1;
+    border-radius: 100%;
+    height: 12px;
+    position: absolute;
+    background-color: #fff;
+}
+
+.domain-table .table-row td.top:last-child:after {
+    content: "";
+    display: none;
 }
 
 .domain-table {
@@ -273,13 +291,13 @@ body, html {
 }
 
 .table-row {
-    margin: 0 16px;
+    margin: 0 14px;
     display: flex;
 }
 
 .table-row td {
     position: relative;
-    padding: 33px 40px;
+    padding: 40px 40px;
     width: 14%;
 }
 
@@ -297,33 +315,49 @@ body, html {
 }
 
 td.top:first-child {
-    padding-top: 10px;
+    padding-top: 9px;
+    padding-right: 55px;
 }
 
 td.top:last-child {
-    padding-top: 10px;
+    padding-top: 9px;
+    padding-left: 56px;
 }
 
 td.bottom:first-child {
-    padding-top: 17px;
+    padding-right: 55px;
+}
+
+td.bottom:last-child {
+    padding-top: 20px;
+    padding-left: 56px;
 }
 
 td.bottom:nth-child(n) {
-    padding-top: 17px;
+    padding-top: 19px;
+    padding-bottom: 29px;
 }
 
-td.top.one, td.bottom.one {
-    padding: 10px 50px;
+td.top.one {
+    padding: 9px 56px 9px 56px;
 }
 
-td.top.price, td.bottom.price {
-    padding: 10px 49px;
+td.bottom.one {
+    padding: 19px 56px 19px 56px;
+}
+
+td.top.price {
+    padding: 9px 56px 9px 56px;
+}
+
+td.bottom.price {
+    padding: 18px 56px 19px 56px;
 }
 
 td.top::before, td.bottom::before {
     content: '';
     display: block;
-    width: 130px;
+    width: 110px;
     height: 18px;
 }
 /*End Block of with Domain*/
