@@ -215,7 +215,7 @@ body, html {
     font-size: 16px;
     color: #D9D9D9;
     padding-right: 3px;
-    margin-bottom: 48px;
+    margin-bottom: 47px;
     text-align: center;
 }
 
@@ -321,7 +321,7 @@ td.top:first-child {
 
 td.top:last-child {
     padding-top: 9px;
-    padding-left: 56px;
+    padding-left: 54px;
 }
 
 td.bottom:first-child {
@@ -330,7 +330,7 @@ td.bottom:first-child {
 
 td.bottom:last-child {
     padding-top: 20px;
-    padding-left: 56px;
+    padding-left: 54px;
 }
 
 td.bottom:nth-child(n) {
@@ -698,7 +698,7 @@ ul.profile {
     font-family: "Lato Light", sans-serif;
     width: 900px;
     margin-top: 0;
-    height: 75px;
+    height: 64px;
     margin-bottom: 10px;
     padding: 0;
     font-size: 20px;
@@ -707,7 +707,7 @@ ul.profile {
 
 .quote p {
     margin-top: 0;
-    line-height: 33px;
+    line-height: 30px;
 }
 
 .info {
@@ -717,19 +717,20 @@ ul.profile {
 
 .info p {
     margin: 0;
-    padding-right: 20px;
+    padding-right: 12px;
+    padding-left: 6px;
     font-size: 20px;
     font-weight: 600;
-    border-right: 1px solid white;
 }
 
 .icons {
     display: inline-flex;
     align-items: center;
+    border-left: 1px solid white;
 }
 
 .icons ul {
-    padding: 0 0 7px 20px;
+    padding: 1px 0 6px 7px;
     margin: 0;
 }
 
@@ -738,12 +739,12 @@ ul.profile {
     list-style-type: none;
     cursor: pointer;
     position: relative;
-    width: 7px;
-    height: 7px;
+    width: 6px;
+    height: 6px;
     top: 1px;
     border-radius: 50%;
     border: 1px solid #fff;
-    margin: 2px 6px;
+    margin: 2px 4px;
 }
 
 .icons .active {
