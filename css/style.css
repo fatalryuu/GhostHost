@@ -421,6 +421,7 @@ td.top::before, td.bottom::before {
 }
 
 .block-title {
+    margin-top: 0;
     text-align: center;
     font-weight: bold;
     margin-bottom: 15px;
@@ -486,6 +487,8 @@ td.top::before, td.bottom::before {
 }
 
 .block-plan {
+    text-decoration: none;
+    color: black;
     border-top: 3px solid #F9D423;
     padding-top: 18px;
     padding-bottom: 5px;
