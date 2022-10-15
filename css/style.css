@@ -957,7 +957,7 @@ nav.footer-list li:hover{
 
 .footer-list a:hover {
     color: #FFFFFF;
-    margin-left: 16px;
+    margin-left: 14px;
     transition: .3s margin-left;
 }
 
